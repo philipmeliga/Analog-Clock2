@@ -1,0 +1,95 @@
+.clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 10px solid #ffbfbf;
+    border-radius: 50%;
+    background-image:url('/storage/emulated/0/images/Analog clock2/Philip.jpg');
+    background-size:cover;
+}
+
+.hour-hand, .minute-hand, .second-hand {
+    position: absolute;
+    width: 4px;
+    background-color: black;
+    border-radius: 2px;
+    transform-origin: bottom;
+}
+
+.hour-hand {
+    height: 80px;
+    left: 149px;
+    top: 70px;
+}
+
+.minute-hand {
+    height: 120px;
+    left: 149px;
+    top: 30px;
+}
+
+.second-hand {
+    height: 140px;
+    left: 149px;
+    top: 10px;
+    background-color: red;
+}
+.minute-dot{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    transform-origin:center;
+    font-weight:bold;
+    top:150px; 
+    left:145px;
+}
+.heart{
+    position:absolute;
+    font-size:20px;
+    color:red;
+    animation:fall 5s linear infinite;  
+}
+@keyframes fall{
+   from { 
+   transform: translateY(-100px);
+   }
+   to{
+       transform:translateY(300px);
+   }
+}
+.center {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    left: 145px;
+    top: 145px;
+}
+
+.numbers {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+}
+
+.num {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.num1 { top: 25px; left: 205px; }
+.num2 { top: 75px; left: 250px; }
+.num3 { top: 140px; left: 275px; }
+.num4 { top: 210px; left: 250px; }
+.num5 { top: 250px; left: 200px; }
+.num6 { top: 270px; left: 140px; }
+.num7 { top: 250px; left: 80px; }
+.num8 { top: 210px; left: 35px; }
+.num9 { top: 140px; left: 10px; }
+.num10 { top: 80px; left: 25px; }
+.num11 { top: 30px; left: 70px; }
+.num12 { top: 10px; left: 140px; }
