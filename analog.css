@@ -4,8 +4,29 @@
     height: 300px;
     border: 10px solid #ffbfbf;
     border-radius: 50%;
-    background-image:url('/storage/emulated/0/images/Analog clock2/Philip.jpg');
+    background-image:url('/Analog-Clock2/background.jpg');
     background-size:cover;
+    top:10px;
+    left:10px;
+}
+.clock-container {
+    height:450px;
+    width:100%;
+    border-radius:5px;
+    background-color:#ffaa95;
+}
+.digital-display{
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:20px;
+   
+}
+#date{
+    font-size:25px;
+    color:blue;
+    font-weight: bold;
+    text-align:center;
 }
 
 .hour-hand, .minute-hand, .second-hand {
@@ -73,6 +94,7 @@
     position: absolute;
     width: 10%;
     height: 100%;
+    color:black;
 }
 
 .num {
