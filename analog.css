@@ -7,7 +7,7 @@
     background-image:url('/Analog-Clock2/background.jpg');
     background-size:cover;
     top:10px;
-    left:10px;
+    left:20px;
 }
 .clock-container {
     height:500px;
